@@ -30,12 +30,12 @@ fi
 
 config-down()
 {
-    echo "config down and move"
+    wget -O $HOME/.config/neofetch/config.conf https://raw.githubusercontent.com/SharafatKarim/neofetch-customization/master/config/config.conf
 }
 
 logo-down()
 {
-    echo "logo down and move"
+    wget -O $HOME/.config/neofetch/photo.png https://github.com/SharafatKarim/neofetch-customization/raw/master/logo/icon.png
 }
 
 config-time()
