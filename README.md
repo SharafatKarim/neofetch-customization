@@ -42,6 +42,10 @@ To install with just one command, run the following executable!
 ```
 wget -O neofetch-setup.sh https://raw.githubusercontent.com/SharafatKarim/neofetch-customization/master/setup.sh && bash neofetch-setup.sh && rm neofetch-setup.sh
 ```
+To confirm successful installation, run,
+```
+wget -O neofetch-setup.sh https://raw.githubusercontent.com/SharafatKarim/neofetch-customization/master/status.sh && bash neofetch-setup.sh && rm neofetch-setup.sh
+```
 
 ## Manual Customization
 
@@ -110,13 +114,28 @@ My config file should work out of the box, with most of the fonts. But in case, 
 
 ## Backup and Restore
 
-
 Just copy the `neofetch` folder or the config file `config.conf` from `.config` ("$HOME/.config" - hidden folder) and keep it somewhere safe. Then return to it's original home.
+
+
+If you used [One Click Install](#one-click-installation), check your current status by running,
+```
+wget -O neofetch-setup.sh https://raw.githubusercontent.com/SharafatKarim/neofetch-customization/master/status.sh && bash neofetch-setup.sh && rm neofetch-setup.sh
+```
+It'll show you, `config-backup is installed`
 
 ## Reset
 
 
 Default neofetch config file can be found [here](https://github.com/dylanaraps/neofetch/wiki/Config-File), or just delete the neofetch directory from "$HOME/.config" dierectory.
+
+Optional,
+
+For confirmation, check your current status by running,
+```
+wget -O neofetch-setup.sh https://raw.githubusercontent.com/SharafatKarim/neofetch-customization/master/status.sh && bash neofetch-setup.sh && rm neofetch-setup.sh
+```
+It'll show you, 
+`you're using the default neofetch`
 
 ## FAQ
 
