@@ -104,6 +104,8 @@ Now's the second part. If you want to switch back to the ascii arts then you hav
 
 and if you feel like using your own custom logo, change the location, `image_source="$HOME/.config/neofetch/logo.png"`
 
+<img src="screen/img2.png">
+
 If your logo is too much small, change the value of `image_size="none"` to `image_size="auto"`
 
 ## Icon missing issue
