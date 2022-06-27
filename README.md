@@ -37,7 +37,11 @@ we can just go ahead and modify it like this one,
 
 ## One Click Installation
 
-Coming soon!
+To install with just one command, run the following executable!
+
+```
+wget -O neofetch-setup.sh https://raw.githubusercontent.com/SharafatKarim/neofetch-customization/master/setup.sh && bash neofetch-setup.sh && rm neofetch-setup.sh
+```
 
 ## Manual Customization
 
