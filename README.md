@@ -11,6 +11,7 @@ A simple way to **beautify** your **neofetch**!
 - [Easy way to customize](#easy-way-to-customize)
 - [Editing the configuration file](#editing-the-configuration-file)
 - [Font/ Icon missing issue](#icon-missing-issue)
+- [Remove](#remove)
 - [Backup and Restore](#backup-and-restore)
 - [Resetting the neofetch](#reset)
 - [FAQ](#faq)
@@ -46,7 +47,10 @@ To confirm successful installation, run,
 ```
 wget -O neofetch-setup.sh https://raw.githubusercontent.com/SharafatKarim/neofetch-customization/master/status.sh && bash neofetch-setup.sh && rm neofetch-setup.sh
 ```
-
+And if you don't like then go back to the previous state, by running,
+```
+wget -O neofetch-setup.sh https://raw.githubusercontent.com/SharafatKarim/neofetch-customization/master/remove.sh && bash neofetch-setup.sh && rm neofetch-setup.sh
+```
 ## Manual Customization
 
 
@@ -111,6 +115,13 @@ My config file should work out of the box, with most of the fonts. But in case, 
 
 - [Nerd fonts website.](https://www.nerdfonts.com/)
 - [Read more on how to setup fonts in different terminal emulator.](https://github.com/romkatv/powerlevel10k#fonts)
+
+## Remove
+
+If you have used the script to install theme and want to go back to previous state, run, 
+```
+wget -O neofetch-setup.sh https://raw.githubusercontent.com/SharafatKarim/neofetch-customization/master/remove.sh && bash neofetch-setup.sh && rm neofetch-setup.sh
+```
 
 ## Backup and Restore
 
