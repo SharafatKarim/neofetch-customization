@@ -81,7 +81,7 @@ By using config files, you can add or remove options, titles and unlock a lot mo
 
 In the config file, there are some lines starting with #
 <img src="screen/cmt1.png">
-,and there are some lines which are not started with # 
+,and there are some lines which are not started with # called commented lines. Those lines will not
 
 Those lines starting with # is just for you. They'll have no effect in the neofetch. They are used for you to easily understand.
 
