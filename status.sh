@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#color
+Green='\033[0;32m'        # Green
+NC='\033[0m'              # No Color
+
 config-validity()
 {
 wget -O conf-original.conf "https://raw.githubusercontent.com/SharafatKarim/neofetch-customization/master/config/config.conf%20(default)"
@@ -7,11 +11,11 @@ wget -O conf-original.conf "https://raw.githubusercontent.com/SharafatKarim/neof
 if cmp -s -- "$HOME/.config/neofetch/conf.conf" "conf-original.conf"
 then
   echo ""
-  echo "you're using the default neofetch"
+  echo -e "${Green}you're using the default neofetch${NC}"
   echo ""
 else
   echo ""
-  echo "you're not using the default neofetch"
+  echo -e "${Green}you're not using the default neofetch${NC}"
   echo ""
 fi
 rm conf-original.conf
@@ -24,7 +28,7 @@ wget -O conf-original-2.conf "https://raw.githubusercontent.com/SharafatKarim/ne
 if cmp -s -- "$HOME/.config/neofetch/conf.conf" "conf-original-2.conf"
 then
   echo ""
-  echo "you've used this GitHub repo to install theme and didn't customize further"
+  echo -e "${Green}you've used this GitHub repo to install theme and didn't customize further${NC}"
   echo ""
 fi
 rm conf-original-2.conf
@@ -37,7 +41,7 @@ wget -O logo-original.png "https://github.com/SharafatKarim/neofetch-customizati
 if cmp -s -- "$HOME/.config/neofetch/logo.png" "logo-original.png"
 then
   echo ""
-  echo "arch logo from this script is installed and you didn't customize further"
+  echo -e "${Green}arch logo from this script is installed and you didn't customize further${NC}"
   echo ""
 fi
 rm logo-original.png
@@ -48,7 +52,7 @@ neofetch-exists()
 if which neofetch >/dev/null
 then
     echo ""
-    echo Neofetch is installed. 
+    echo -e "${Green}Neofetch is installed.${NC}"
     echo ""
 else
     echo ""
@@ -62,11 +66,11 @@ config-exists()
     if test -f "$HOME/.config/neofetch/config.conf"
     then
         echo ""
-        echo "neofetch config is installed"
+        echo -e "${Green}neofetch config is installed${NC}"
         echo ""
     else
         echo ""
-        echo "neofetch config not found,"
+        echo -e "${Green}neofetch config not found,${NC}"
         echo ""
     fi
 }
@@ -76,11 +80,11 @@ config-backup-exists()
     if test -f "$HOME/.config/neofetch/config-backup.conf"
     then
         echo ""
-        echo "config-backup is installed"
+        echo -e "${Green}config-backup is installed${NC}"
         echo ""
     else
         echo ""
-        echo "neofetch config-backup not found"
+        echo -e "${Green}neofetch config-backup not found${NC}"
         echo ""
     fi
 }
@@ -90,7 +94,7 @@ logo-backup-exists()
     if test -f "$HOME/.config/neofetch/logo-backup.png"
     then
         echo ""
-        echo "logo-backup is installed"
+        echo -e "${Green}logo-backup is installed${NC}"
         echo ""
     fi
 }
@@ -100,7 +104,7 @@ logo-exists()
     if test -f "$HOME/.config/neofetch/logo.png"
     then
         echo ""
-        echo "logo is installed"
+        echo -e "${Green}logo is installed${NC}"
         echo ""
     fi
 }
