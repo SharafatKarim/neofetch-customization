@@ -8,7 +8,7 @@ config-validity()
 {
 wget -O conf-original.conf "https://raw.githubusercontent.com/SharafatKarim/neofetch-customization/master/config/config.conf%20(default)"
 
-if cmp -s -- "$HOME/.config/neofetch/conf.conf" "conf-original.conf"
+if cmp -s -- "$HOME/.config/neofetch/config.conf" "conf-original.conf"
 then
   echo ""
   echo -e "${Green}you're using the default neofetch${NC}"
@@ -25,7 +25,7 @@ config-script-validity()
 {
 wget -O conf-original-2.conf "https://raw.githubusercontent.com/SharafatKarim/neofetch-customization/master/config/config.conf"
 
-if cmp -s -- "$HOME/.config/neofetch/conf.conf" "conf-original-2.conf"
+if cmp -s -- "$HOME/.config/neofetch/config.conf" "conf-original-2.conf"
 then
   echo ""
   echo -e "${Green}you've used this GitHub repo to install theme and didn't customize further${NC}"
