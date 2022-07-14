@@ -76,8 +76,7 @@ Easier way to customize is to use other's config file. In this case, check this 
 
 And you can also customize like me,
 
-<img src="preview/1.png">
-
+![](https://raw.githubusercontent.com/SharafatKarim/neofetch-customization/master/preview/1.png)
 You just have to use my config file and tweak it a little bit.
 In the config file.
 
@@ -85,10 +84,10 @@ In the config file.
 
 By using config files, you can add or remove options, titles and unlock a lot more! Just like this image,
 
-<img src="preview/2.png">
+<img src="https://raw.githubusercontent.com/SharafatKarim/neofetch-customization/master/preview/2.png">
 
 In the config file, there are some lines starting with #
-<img src="screen/cmt1.png">
+<img src="https://raw.githubusercontent.com/SharafatKarim/neofetch-customization/master/screen/cmt1.png">
 ,and there are some lines which are not started with # called commented lines. Those lines will not
 
 Those lines starting with # is just for you. They'll have no effect in the neofetch. They are used for you to easily understand.
@@ -100,11 +99,11 @@ In the first part, remove the # sign from a line, then it'll show up in the term
 Now's the second part. If you want to switch back to the ascii arts then you have set
 `image_backend="iterm2"`
 
-<img src="screen/img1.png">
+<img src="https://raw.githubusercontent.com/SharafatKarim/neofetch-customization/master/screen/img1.png">
 
 and if you feel like using your own custom logo, change the location, `image_source="$HOME/.config/neofetch/logo.png"`
 
-<img src="screen/img2.png">
+<img src="https://raw.githubusercontent.com/SharafatKarim/neofetch-customization/master/master/screen/img2.png">
 
 If your logo is too much small, change the value of `image_size="none"` to `image_size="auto"`
 
