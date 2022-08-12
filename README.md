@@ -17,6 +17,7 @@ A simple way to **beautify** your **neofetch**!
 - [FAQ](#faq)
 - [Credits](#credits)
 - [Special thanks to](#special-thanks-to)
+- [Stats](#stats)
 
 ---
 
@@ -165,3 +166,7 @@ No questions were asked, yet! To ask any quetion, feel free to write me or crete
 ## Special thanks to
 
 - [Shahid Parvez](https://mrsnailo.github.io/)
+
+## Stats
+
+![Alt](https://repobeats.axiom.co/api/embed/6e687bd0ceda935fd1949231899f0fb5e1e60e24.svg "Repobeats analytics image")
